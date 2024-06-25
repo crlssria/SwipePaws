@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-   * DatingApp
-    * https://github.com/quintuslabs/DatingApp
-    * Created on 25-sept-2018.
-    * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
-    -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -76,19 +70,6 @@
                         android:padding="10dp"
                         android:src="@drawable/ic_dislike" />
 
-                    <ImageButton
-                        android:id="@+id/commentbtn"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/round_button_with_border"
-                        android:elevation="7dp"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_comment" />
-
 
                     <ImageButton
                         android:id="@+id/likebtn"
@@ -123,7 +104,7 @@
             android:layout_height="match_parent">
 
 
-            <com.quintus.labs.datingapp.Utils.PulsatorLayout
+            <com.capstone.project.swipepaws.Utils.PulsatorLayout
                 android:id="@+id/pulsator"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -143,7 +124,7 @@
                     app:civ_border_color="@color/transparentPink"
                     app:civ_border_width="1dp" />
 
-            </com.quintus.labs.datingapp.Utils.PulsatorLayout>
+            </com.capstone.project.swipepaws.Utils.PulsatorLayout>
 
         </RelativeLayout>
     </FrameLayout>

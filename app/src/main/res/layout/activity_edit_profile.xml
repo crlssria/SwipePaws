@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-   * DatingApp
-    * https://github.com/quintuslabs/DatingApp
-    * Created on 25-sept-2018.
-    * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
-    -->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -38,7 +33,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-
                         android:weightSum="10">
 
                         <androidx.cardview.widget.CardView
@@ -58,7 +52,6 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:elevation="20dp"
-                                    android:text="1"
                                     android:textSize="60dp"
                                     android:textStyle="bold" />
 
@@ -67,22 +60,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:scaleType="fitXY" />
-
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_alignParentRight="true"
-                                    android:layout_alignParentBottom="true"
-                                    android:elevation="@dimen/_5dp">
-
-                                    <Button
-                                        android:layout_width="30dp"
-                                        android:layout_height="30dp"
-                                        android:background="@drawable/ic_add_circle_black_24dp"
-                                        android:elevation="@dimen/_5dp" />
-                                </LinearLayout>
                             </RelativeLayout>
-
                         </androidx.cardview.widget.CardView>
 
                         <LinearLayout
@@ -106,8 +84,6 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_centerInParent="true"
-                                        android:text="2"
-                                        android:textSize="60dp"
                                         android:textStyle="bold" />
 
                                     <ImageView
@@ -115,20 +91,6 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:scaleType="fitXY" />
-
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_alignParentRight="true"
-                                        android:layout_alignParentBottom="true"
-                                        android:elevation="@dimen/_5dp">
-
-                                        <Button
-                                            android:layout_width="30dp"
-                                            android:layout_height="30dp"
-                                            android:background="@drawable/ic_add_circle_black_24dp"
-                                            android:elevation="@dimen/_5dp" />
-                                    </LinearLayout>
                                 </RelativeLayout>
                             </androidx.cardview.widget.CardView>
 
@@ -147,8 +109,6 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_centerInParent="true"
-                                        android:text="3"
-                                        android:textSize="60dp"
                                         android:textStyle="bold" />
 
                                     <ImageView
@@ -156,20 +116,6 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:scaleType="fitXY" />
-
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_alignParentRight="true"
-                                        android:layout_alignParentBottom="true"
-                                        android:elevation="@dimen/_5dp">
-
-                                        <Button
-                                            android:layout_width="30dp"
-                                            android:layout_height="30dp"
-                                            android:background="@drawable/ic_add_circle_black_24dp"
-                                            android:elevation="@dimen/_5dp" />
-                                    </LinearLayout>
                                 </RelativeLayout>
                             </androidx.cardview.widget.CardView>
 
@@ -197,8 +143,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
-                                    android:text="4"
-                                    android:textSize="60dp"
                                     android:textStyle="bold" />
 
                                 <ImageView
@@ -206,20 +150,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:scaleType="fitXY" />
-
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_alignParentRight="true"
-                                    android:layout_alignParentBottom="true"
-                                    android:elevation="@dimen/_5dp">
-
-                                    <Button
-                                        android:layout_width="30dp"
-                                        android:layout_height="30dp"
-                                        android:background="@drawable/ic_add_circle_black_24dp"
-                                        android:elevation="@dimen/_5dp" />
-                                </LinearLayout>
                             </RelativeLayout>
                         </androidx.cardview.widget.CardView>
 
@@ -241,8 +171,6 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:scaleType="fitXY"
-                                    android:text="5"
-                                    android:textSize="60dp"
                                     android:textStyle="bold" />
 
                                 <ImageView
@@ -250,20 +178,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:scaleType="fitXY" />
-
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_alignParentRight="true"
-                                    android:layout_alignParentBottom="true"
-                                    android:elevation="@dimen/_5dp">
-
-                                    <Button
-                                        android:layout_width="30dp"
-                                        android:layout_height="30dp"
-                                        android:background="@drawable/ic_add_circle_black_24dp"
-                                        android:elevation="@dimen/_5dp" />
-                                </LinearLayout>
                             </RelativeLayout>
                         </androidx.cardview.widget.CardView>
 
@@ -283,8 +197,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
-                                    android:text="6"
-                                    android:textSize="60dp"
                                     android:textStyle="bold" />
 
                                 <ImageView
@@ -292,20 +204,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:scaleType="fitXY" />
-
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_alignParentRight="true"
-                                    android:layout_alignParentBottom="true"
-                                    android:elevation="@dimen/_5dp">
-
-                                    <Button
-                                        android:layout_width="30dp"
-                                        android:layout_height="30dp"
-                                        android:background="@drawable/ic_add_circle_black_24dp"
-                                        android:elevation="@dimen/_5dp" />
-                                </LinearLayout>
                             </RelativeLayout>
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
@@ -318,20 +216,23 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp">
 
-                    <com.quintus.labs.datingapp.customfonts.MyTextView_Roboto_Bold
+                    <com.capstone.project.swipepaws.customfonts.MyTextView_Roboto_Bold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="About You"
+                        android:text="About Dog"
+                        android:textColor="#000000"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
                     <EditText
+                        android:id="@+id/dogBio"
                         android:layout_width="match_parent"
-                        android:layout_height="70dp"
+                        android:layout_height="wrap_content"
                         android:background="@android:color/transparent"
                         android:gravity="bottom"
-                        android:hint="Write something about you" />
+                        android:textSize="16dp"
+                        android:hint="Write something about your dog" />
 
                     <View
                         android:layout_width="match_parent"
@@ -339,21 +240,23 @@
                         android:layout_marginTop="2dp"
                         android:background="@color/colorAccent" />
 
-                    <com.quintus.labs.datingapp.customfonts.MyTextView_Roboto_Bold
+                    <com.capstone.project.swipepaws.customfonts.MyTextView_Roboto_Bold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Job Title"
+                        android:text="Breed"
+                        android:textColor="#000000"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
-                    <EditText
+                    <Spinner
+                        android:id="@+id/breedSpinner"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@android:color/transparent"
-                        android:gravity="bottom"
-                        android:hint="Add job title"
-                        android:padding="@dimen/_5dp" />
+                        android:textSize="16dp"
+                        android:entries="@array/breed_array"
+                        />
+
 
                     <View
                         android:layout_width="match_parent"
@@ -361,21 +264,63 @@
                         android:layout_marginTop="2dp"
                         android:background="@color/colorAccent" />
 
-                    <com.quintus.labs.datingapp.customfonts.MyTextView_Roboto_Bold
+                    <com.capstone.project.swipepaws.customfonts.MyTextView_Roboto_Bold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="Company"
+                        android:text="Dog Temperaments"
+                        android:textColor="#000000"
                         android:textSize="18dp"
                         android:textStyle="bold" />
 
-                    <EditText
-                        android:layout_width="match_parent"
+                    <CheckBox
+                        android:id="@+id/checkbox_friendly"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@android:color/transparent"
-                        android:gravity="bottom"
-                        android:hint="Add company"
-                        android:padding="@dimen/_5dp" />
+                        android:text="Friendly/Sociable"
+                        android:textSize="16dp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_stable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stable/Calm"
+                        android:textSize="16dp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_intelligent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Intelligent/Trainable"
+                        android:textSize="16dp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_loyal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loyal/Protective"
+                        android:textSize="16dp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_energetic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Energetic/Playful"
+                        android:textSize="16dp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_gentle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gentle/Patient"
+                        android:textSize="16dp" />
+
+                    <CheckBox
+                        android:id="@+id/checkbox_confident"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Confident/Assertive"
+                        android:textSize="16dp" />
 
                     <View
                         android:layout_width="match_parent"
@@ -383,21 +328,41 @@
                         android:layout_marginTop="2dp"
                         android:background="@color/colorAccent" />
 
-                    <com.quintus.labs.datingapp.customfonts.MyTextView_Roboto_Bold
+                    <com.capstone.project.swipepaws.customfonts.MyTextView_Roboto_Bold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="School"
+                        android:text="Location"
                         android:textSize="18dp"
+                        android:textColor="#000000"
                         android:textStyle="bold" />
 
-                    <EditText
+                    <TextView
+                        android:id="@+id/dogLocation"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@android:color/transparent"
                         android:gravity="bottom"
-                        android:hint="Add school"
-                        android:padding="@dimen/_5dp" />
+                        android:hint="Example City"
+                        android:textSize="16dp"
+                        android:clickable="false"
+                        android:focusable="false"
+                        />
+
+                    <Button
+                        android:id="@+id/updateLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ageSelectionPicker"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="24dp"
+                        android:background="@drawable/rounded_button"
+                        android:backgroundTint="#FD8D14"
+                        android:elevation="24dp"
+                        android:text="Update Location"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
 
                     <View
                         android:layout_width="match_parent"
@@ -405,125 +370,24 @@
                         android:layout_marginTop="2dp"
                         android:background="@color/colorAccent" />
 
-                    <com.quintus.labs.datingapp.customfonts.MyTextView_Roboto_Bold
-                        android:layout_width="wrap_content"
+                    <Button
+                        android:id="@+id/updateMedicalRecords"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:text="Gender"
-                        android:textSize="18dp"
+                        android:layout_below="@id/ageSelectionPicker"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="24dp"
+                        android:background="@drawable/rounded_button"
+                        android:backgroundTint="#FD8D14"
+                        android:elevation="24dp"
+                        android:text="Update Medical Records"
+                        android:textColor="@android:color/white"
                         android:textStyle="bold" />
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <TextView
-                            android:id="@+id/man_text"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_margin="8dp"
-                            android:text="Man"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="18dp" />
-
-                        <Button
-                            android:id="@+id/man_button"
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:background="@drawable/ic_check_select" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <TextView
-                            android:id="@+id/woman_text"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_margin="8dp"
-                            android:text="Woman"
-                            android:textSize="18dp" />
-
-                        <Button
-                            android:id="@+id/woman_button"
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:background="@drawable/ic_check_unselect"
-                            android:visibility="visible" />
-                    </RelativeLayout>
-
-                    <com.quintus.labs.datingapp.customfonts.MyTextView_Roboto_Bold
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="@dimen/_5dp"
-                        android:text="Control Your Profile"
-                        android:textSize="18dp" />
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="Don't Show my age"
-                            android:textSize="18dp" />
-
-                        <androidx.appcompat.widget.SwitchCompat
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:layout_gravity="center"
-                            android:layout_marginRight="10dp"
-                            android:background="@null"
-                            android:button="@drawable/custom_switch"
-                            android:checked="false"
-                            android:thumb="@null"
-                            app:track="@null" />
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="Make My Distance Invisible"
-                            android:textSize="18dp" />
-
-                        <androidx.appcompat.widget.SwitchCompat
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_centerVertical="true"
-                            android:layout_gravity="center"
-                            android:layout_marginRight="10dp"
-                            android:background="@null"
-                            android:button="@drawable/custom_switch"
-                            android:checked="false"
-                            android:thumb="@null"
-                            app:track="@null" />
-
-                    </RelativeLayout>
 
                 </LinearLayout>
             </LinearLayout>
+
         </RelativeLayout>
     </ScrollView>
 

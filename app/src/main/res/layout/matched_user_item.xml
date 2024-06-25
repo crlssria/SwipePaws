@@ -26,7 +26,7 @@
         android:layout_gravity="center_vertical"
         android:orientation="vertical">
 
-        <com.quintus.labs.datingapp.customfonts.MyTextView_Roboto_Bold
+        <com.capstone.project.swipepaws.customfonts.MyTextView_Roboto_Bold
             android:id="@+id/mui_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,6 +41,7 @@
             android:text="Student"
             android:textColor="@color/gray_btn_bg_pressed_color"
             android:textSize="16dp" />
+
 
     </LinearLayout>
 </LinearLayout>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-   * DatingApp
-    * https://github.com/quintuslabs/DatingApp
-    * Created on 25-sept-2018.
-    * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
-    -->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,9 +9,7 @@
     <!-- top navigation -->
     <include layout="@layout/layout_top_navigation_view" />
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/profile_bg"
@@ -32,7 +25,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.quintus.labs.datingapp.Utils.PulsatorLayout
+            <com.capstone.project.swipepaws.Utils.PulsatorLayout
                 android:id="@+id/pulsator"
                 android:layout_width="180dp"
                 android:layout_height="180dp"
@@ -53,14 +46,14 @@
                     android:src="@drawable/monkey"
                     app:civ_border_color="@color/transparentPink"
                     app:civ_border_width="2dp" />
-            </com.quintus.labs.datingapp.Utils.PulsatorLayout>
+            </com.capstone.project.swipepaws.Utils.PulsatorLayout>
 
             <TextView
                 android:id="@+id/profile_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:text="Santosh Kumar"
+                android:text=" "
                 android:textColor="@android:color/black"
                 android:textSize="20sp" />
 

@@ -38,13 +38,14 @@
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/logo" />
 
-                <com.quintus.labs.datingapp.customfonts.MyTextView_GreatVibes_Regular
+                <com.capstone.project.swipepaws.customfonts.MyTextView_GreatVibes_Regular
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="40dp"
-                    android:text="Love Dating"
-                    android:textColor="#ff0b00"
+                    android:layout_marginLeft="55dp"
+                    android:text="SwipePaws"
+                    android:textStyle="bold|italic"
+                    android:textColor="#FFE17B"
                     android:textSize="30dp" />
 
             </RelativeLayout>
@@ -108,9 +109,22 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="25dp"
                     android:gravity="center"
-                    android:text="No accout yet? Create one"
-                    android:textColor="@color/transparentPink"
+                    android:text="No account yet? Register Here"
+                    android:textColor="@color/link_blue"
+                    android:textStyle="bold"
                     android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/link_forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Forgot Password?"
+                    android:textColor="@color/link_blue"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+
             </LinearLayout>
 
         </LinearLayout>
